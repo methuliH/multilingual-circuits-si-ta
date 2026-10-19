@@ -1,0 +1,27 @@
+# Private planning notes (kept locally, not published)
+PROJECT_PLAN.md
+
+# Secrets
+.env
+*.token
+hf_token*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model and graph outputs
+*.pt
+*.safetensors
+graph_files/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
