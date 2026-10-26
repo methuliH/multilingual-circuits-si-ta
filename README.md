@@ -8,6 +8,8 @@
 
 ![Feature overlap between English and French by layer](figures/01_overlap_by_layer_en_fr.svg)
 
+📖 **Read the story behind it:** [Looking Inside a Mind Made of Numbers](blog/01-looking-inside-a-mind-made-of-numbers.md)
+
 ## 🤔 Why?
 
 Anthropic's [*On the Biology of a Large Language Model*](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) found that Claude 3.5 Haiku handles the same idea in English, French and Chinese with **shared, language-independent features** in its middle layers, and only switches to language-specific features at the input and output. They also found that this sharing is **weaker in smaller models** and between **languages that don't share an alphabet**.
@@ -87,6 +89,7 @@ There's also a Colab/Kaggle notebook, [`notebooks/01_trace_en_fr.ipynb`](noteboo
 
 ```
 .
+├── blog/        # Write-ups of each phase
 ├── figures/     # Charts (overlap by layer)
 ├── notebooks/   # circuit-tracer notebook (Colab / Kaggle)
 └── notes/       # Paper notes and Phase 1 results
